@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6a98c1a26ba44705b9c66bfcb94ed767",
+    "packages": [
+        {
+            "name": "labyrinthe/payment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dr-Lab1/Labyrinthe-Payment.git",
+                "reference": "746823701417d6458bec97e9a968aacee16064b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dr-Lab1/Labyrinthe-Payment/zipball/746823701417d6458bec97e9a968aacee16064b8",
+                "reference": "746823701417d6458bec97e9a968aacee16064b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Labyrinthe\\Payment\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Bahati Kukwabantu",
+                    "email": "jbkukwabantu@gmail.com",
+                    "homepage": "https://labyrinthe.io",
+                    "role": "Head developer"
+                }
+            ],
+            "description": "A package facilitating the integration of payment modules from several payment aggregators",
+            "homepage": "https://github.com/Dr-Lab1/Labyrinthe-Payment",
+            "keywords": [
+                "labyrinthe",
+                "payment"
+            ],
+            "support": {
+                "issues": "https://github.com/Dr-Lab1/Labyrinthe-Payment/issues",
+                "source": "https://github.com/Dr-Lab1/Labyrinthe-Payment/tree/master"
+            },
+            "time": "2024-08-03T11:40:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "labyrinthe/payment": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

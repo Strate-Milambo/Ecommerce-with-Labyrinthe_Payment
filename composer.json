@@ -1,0 +1,5 @@
+{
+    "require": {
+        "labyrinthe/payment": "dev-master"
+    }
+}

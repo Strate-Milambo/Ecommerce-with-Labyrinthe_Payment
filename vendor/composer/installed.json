@@ -1,0 +1,57 @@
+{
+    "packages": [
+        {
+            "name": "labyrinthe/payment",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dr-Lab1/Labyrinthe-Payment.git",
+                "reference": "746823701417d6458bec97e9a968aacee16064b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dr-Lab1/Labyrinthe-Payment/zipball/746823701417d6458bec97e9a968aacee16064b8",
+                "reference": "746823701417d6458bec97e9a968aacee16064b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.5"
+            },
+            "time": "2024-08-03T11:40:46+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Labyrinthe\\Payment\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Bahati Kukwabantu",
+                    "email": "jbkukwabantu@gmail.com",
+                    "homepage": "https://labyrinthe.io",
+                    "role": "Head developer"
+                }
+            ],
+            "description": "A package facilitating the integration of payment modules from several payment aggregators",
+            "homepage": "https://github.com/Dr-Lab1/Labyrinthe-Payment",
+            "keywords": [
+                "labyrinthe",
+                "payment"
+            ],
+            "support": {
+                "issues": "https://github.com/Dr-Lab1/Labyrinthe-Payment/issues",
+                "source": "https://github.com/Dr-Lab1/Labyrinthe-Payment/tree/master"
+            },
+            "install-path": "../labyrinthe/payment"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

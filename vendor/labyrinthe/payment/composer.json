@@ -1,0 +1,33 @@
+{
+    "name": "labyrinthe/payment",
+    "description": "A package facilitating the integration of payment modules from several payment aggregators",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/Dr-Lab1/Labyrinthe-Payment",
+    "keywords": [
+        "labyrinthe",
+        "payment"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Labyrinthe\\Payment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonathan Bahati Kukwabantu",
+            "email": "jbkukwabantu@gmail.com",
+            "homepage": "https://labyrinthe.io",
+            "role": "Head developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.5" 
+    }
+}
